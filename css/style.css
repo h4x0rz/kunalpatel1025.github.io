@@ -99,7 +99,7 @@ section {
 }
 
 #home {
-    background: url(intro.jpg);
+    background-image: url(intro.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -107,10 +107,6 @@ section {
     background-color: #000;
     text-align: center;
     min-height: 500px;
-}
-
-@media screen and (max-width: 992px) {
-    background-attachment: scroll;
 }
 
 #home h1 {
