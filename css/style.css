@@ -109,6 +109,10 @@ section {
     min-height: 500px;
 }
 
+@media screen and (max-width: 992px) {
+    background-attachment: scroll;
+}
+
 #home h1 {
     color: #FFF;
     font-size: 60px;
